@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27973,        724]
-NotebookOptionsPosition[     26561,        695]
-NotebookOutlinePosition[     27002,        712]
-CellTagsIndexPosition[     26959,        709]
+NotebookDataLength[     28025,        727]
+NotebookOptionsPosition[     26613,        698]
+NotebookOutlinePosition[     27054,        715]
+CellTagsIndexPosition[     27011,        712]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -542,7 +542,7 @@ Cell[BoxData[{
        "y"}], ")"}]}], ";"}],
   FontSize->24], "\n", 
  StyleBox[
-  RowBox[{"ListPlot", "[", 
+  RowBox[{"ListLinePlot", "[", 
    RowBox[{"AB4", "[", 
     RowBox[{"f", ",", ".1", ",", "0", ",", "3", ",", ".6"}], "]"}], "]"}],
   FontSize->24], "\[IndentingNewLine]", 
@@ -565,13 +565,16 @@ Cell[BoxData[{
    3.8895932552224216`*^9, {3.8895933897667837`*^9, 3.889593402691755*^9}, {
    3.8895935958087077`*^9, 3.8895935980387573`*^9}, {3.8895936749754143`*^9, 
    3.8895936807669053`*^9}, {3.889593726799535*^9, 3.8895937415665708`*^9}, {
-   3.8895938231097655`*^9, 3.889593915365965*^9}},
- CellLabel->"In[54]:=",ExpressionUUID->"eea82288-fa4f-4d3a-82c3-4c1591558a08"],
+   3.8895938231097655`*^9, 3.889593915365965*^9}, {3.889594339952293*^9, 
+   3.889594340576314*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"eea82288-fa4f-4d3a-82c3-4c1591558a08"],
 
 Cell[BoxData[
- GraphicsBox[{{}, 
-   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`], 
-    AbsoluteThickness[1.6], PointBox[CompressedData["
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+     LineBox[CompressedData["
 1:eJxTTMoPSmViYGCQB2IQDQPGYPDYftZMENhpPysz5+jOtS+h/JP2twwbf11L
 fmtvAlZ32V51epXJVq73UPmb9tcShGIFZT7YQ0x7YC//zdBxv8V7e5i511d+
 3/qV5aN9Ghg8s++xilwQ1/zKHqx95kt7nRd3j3Ad+mp/Bgze2EsorDkrteXM
@@ -582,7 +585,7 @@ g0OCk9NHdpmN9ufA6hkczjAvfXow4QPUfEYHFv5bnoeV7tpngPUzOfgpfti/
 4tNne4h9zA4ZJpXm3SUH9kPihMXBK996/5IfT6H2szjUpO45I8/83n4O2DxW
 Bxe3RQJ8C25C3cPmwFc//8YX0y/2ZmDz2B0MVNf4hc7Yv58ZbB6Hww6fyZNf
 tzy3BwAxRuRq
-     "]]}, {{}, {}}},
+      "]]}}, {{}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -614,8 +617,8 @@ tzy3BwAxRuRq
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{{3.8895938828409853`*^9, 3.8895939183600073`*^9}},
- CellLabel->"Out[56]=",ExpressionUUID->"a038540a-8711-4400-8727-285745999af9"],
+ CellChangeTimes->{3.8895944750509205`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"0aabb443-4663-4c8f-8672-54d47c337950"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -687,10 +690,10 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"3.0000000000000013`", ",", "0.7349756128627609`"}], "}"}]}], 
   "}"}]], "Print",
- CellChangeTimes->{{3.889593882853979*^9, 3.8895939183680053`*^9}},
+ CellChangeTimes->{3.889594475060935*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"6da98310-ded7-4117-94d9-9d2fa2456904"]
+In[1]:=",ExpressionUUID->"f79b9319-54f5-4e6f-a5ee-9c60e8807706"]
 }, Open  ]]
 },
 WindowSize->{1904, 981},
@@ -722,9 +725,9 @@ Cell[7178, 199, 6088, 146, 448, "Input",ExpressionUUID->"30e96e1d-41b0-4bbd-9327
 Cell[13269, 347, 353, 7, 22, "Print",ExpressionUUID->"5c9e8369-8746-4eb3-982f-803c06174643"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13659, 359, 7878, 209, 532, "Input",ExpressionUUID->"eea82288-fa4f-4d3a-82c3-4c1591558a08"],
-Cell[21540, 570, 1899, 47, 234, "Output",ExpressionUUID->"a038540a-8711-4400-8727-285745999af9"],
-Cell[23442, 619, 3103, 73, 41, "Print",ExpressionUUID->"6da98310-ded7-4117-94d9-9d2fa2456904"]
+Cell[13659, 359, 7931, 210, 429, "Input",ExpressionUUID->"eea82288-fa4f-4d3a-82c3-4c1591558a08"],
+Cell[21593, 571, 1925, 49, 234, "Output",ExpressionUUID->"0aabb443-4663-4c8f-8672-54d47c337950"],
+Cell[23521, 622, 3076, 73, 41, "Print",ExpressionUUID->"f79b9319-54f5-4e6f-a5ee-9c60e8807706"]
 }, Open  ]]
 }
 ]
